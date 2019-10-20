@@ -1,0 +1,12 @@
+{% extends 'cbresources/home.html' %}
+
+{% block content %}
+<div class="test">
+    {% for resource in resources %}
+        <div class="sauce">
+            <a href="{{ resource.link }}">{{ resource.link }}</a>
+            <p>- {{ resource.description }}</p>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

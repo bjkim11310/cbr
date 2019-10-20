@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CB Resources</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Muli|Nunito|Poppins|Roboto+Slab|Noto+Sans+TC&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="top">
+            <div id="cbr"><a href="{% url 'home' %}">CB Resources</a></div>
+            <div id="community"><a href="{% url 'community' %}">Community</a></div>
+            <div id="about"><a href="{% url 'about' %}">About</a></div>
+        </div>
+        <div class="content">
+            {% block content %}
+            <a href="{% url 'ap' %}" id="ap">AP Exams</a>
+            <a href="{% url 'sat' %}" id="sat">SAT/ACT</a>
+            {% endblock %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    line-height: 100px;
+    background: #f3f3f3;
+}
+
+.top a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Oswald';
+}
+
+#cbr {
+    width: 70vw;
+    padding-left: 40px;
+    font-size: 450%;
+}
+
+#cbr > a:hover {
+    text-decoration: underline;
+}
+
+#community > a:hover {
+    text-decoration: underline;
+}
+
+#about > a:hover {
+    text-decoration: underline;
+}
+
+#community {
+    width: 20vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+#about {
+    width: 10vw;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+}
+
+.content > a {
+    text-decoration: none;
+    width: 50vw;
+    line-height: calc(100vh - 109px);
+    text-align: center;
+    font-size: 300%;
+    transition: 0.7s;
+    color: #000;
+}
+
+.content > #ap {
+    background: rgb(69, 167, 247);
+}
+
+.content > #sat {
+    background: rgb(232, 222, 109);
+}
+
+.content > #ap:hover {
+    background: rgb(32, 143, 232);
+    font-size: 305%;
+}
+
+.content > #sat:hover {
+    background: rgb(250, 235, 67);
+    font-size: 305%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.au {
+    font-size: 27pt;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin: 25px 0 30px 60px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > p {
+    margin: 0 75px 45px 75px;
+    line-height: 1.4em;
+    font-size: 16pt;
+    font-family: 'Muli';
+}
+
+#quote {
+    text-align: center;
+    line-height: 70px;
+    width: 1070px;
+    text-decoration: bold;
+    font-size: 32pt;
+    background: rgb(255, 205, 39);
+    border-radius: 20px;
+    color: rgb(22, 6, 94);
+    font-family: 'Poppins';
+}
+
+.subpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.subpage > a {
+    text-decoration: none;
+    color: #000;
+    margin: 20px 0 0 40px;
+}
+
+.subpage > a:hover {
+    text-decoration: underline;
+}
+
+.test {
+    font-family: 'Noto Sans TC';
+}
+
+.test > .sauce {
+    margin-top: 30px;
+}
+
+.test > .sauce > a {
+    text-decoration: none;
+    color: #2344db;
+    font-size: 16pt;
+    margin-left: 80px;
+}
+
+.test > .sauce > p {
+    font-size: 15pt;
+    margin: 10px 0 0 125px;
+}
+

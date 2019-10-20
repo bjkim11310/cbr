@@ -1,0 +1,9 @@
+{% extends 'cbresources/home.html' %}
+
+{% block content %}
+<div class="subpage">
+    {% for ap in aps %}
+    <a href="{% url 'goTest' testName=ap.name %}">&middot; {{ ap.name }}</a>
+    {% endfor %}
+</div>
+{% endblock %}
